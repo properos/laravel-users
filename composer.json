@@ -1,12 +1,18 @@
 {
     "name": "properos/laravel-users",
     "description": "Users package",
+    "keywords": [
+        "properos",
+        "laravel",
+        "users"
+    ],
     "authors": [
         {
             "name": "Properos LLC",
             "email": "develop@properos.com"
         }
     ],
+    "license": "MIT",
     "minimum-stability": "dev",
     "require": {
         "laravel/sanctum": "^2.1",
