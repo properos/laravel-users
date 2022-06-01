@@ -1,0 +1,27 @@
+{
+    "name": "properos/laravel-users",
+    "description": "Users package",
+    "authors": [
+        {
+            "name": "Properos LLC",
+            "email": "develop@properos.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/sanctum": "^2.1",
+        "intervention/image": "^2.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Properos\\Users\\UsersServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Properos\\Users\\": "src/"
+        }
+    }
+}
