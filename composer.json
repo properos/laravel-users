@@ -15,8 +15,10 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
-        "laravel/sanctum": "^2.1",
-        "intervention/image": "^2.5"
+        "laravel/sanctum": "^4.0",
+        "intervention/image": "^3.0",
+        "intervention/image-laravel": "^1.0",
+        "laravel/ui": "^4.0"
     },
     "extra": {
         "laravel": {
